@@ -29,7 +29,7 @@ public class LoginPage {
 			private final By registrationLink=By.linkText("Register");
 			
 	//4.public page action or methods
-			@Step("getting login page title")
+			@Step("getting login page title...")
 			public String getLoginPageTitle()
 			{
 				String actualTitle=eleUtil.waitForTitleIs(AppConstants.LOGIN_PAGE_TITLE, AppConstants.SHORT_TIME_OUT);
