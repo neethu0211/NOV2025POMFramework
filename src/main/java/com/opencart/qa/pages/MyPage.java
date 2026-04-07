@@ -5,15 +5,9 @@ public class MyPage {
 	int age = 10;
 	String name = "tom";
 
-	private void sysou()
+	private void logout()
 	{
-		System.out.println("hello page");
+		System.out.println("logout");
 	}
-	public void login()
-	{
-		System.out.println("hello app");
-		System.out.println("hello app");
-		System.out.println("hello app");
-		System.out.println("hello app");
-	}
+	
 }
