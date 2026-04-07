@@ -9,4 +9,11 @@ public class MyPage {
 	{
 		System.out.println("hello page");
 	}
+	public void login()
+	{
+		System.out.println("hello app");
+		System.out.println("hello app");
+		System.out.println("hello app");
+		System.out.println("hello app");
+	}
 }
