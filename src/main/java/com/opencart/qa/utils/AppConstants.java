@@ -17,4 +17,6 @@ public class AppConstants {
 	
 	public static final List<String> EXPECTED_HEADERS_LIST=Arrays.asList("My Account","My Orders","My Affiliate Account","Newsletter");
 	public static final CharSequence REGISTER_SUCCESS_MESSG = "Your Account Has Been Created";
+	
+	public static final String REGISTER_SHEET_NAME = "register";
 }
