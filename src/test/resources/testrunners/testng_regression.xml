@@ -11,21 +11,21 @@
 	
 <!--test block -->
 
-	<test name="Login Page Test">
+		
+	 <test name="Login Page Test">
 		<parameter name="browser" value="chrome"></parameter>
 		<classes>
 			<class name="com.opencart.qa.tests.LoginPageTest" /> <!--package name.class name-->
 		</classes>
-	</test>
-	
-	<test name="Home Page Test">
+	</test> 
+<test name="Home Page Test">
 		<parameter name="browser" value="chrome"></parameter>
 		<classes>
-			<class name="com.opencart.qa.tests.HomePageTest" /> <!--package name.class name-->
+			<class name="com.opencart.qa.tests.HomePageTest" /> 
 		</classes>
 	</test>
 
- <test name="Product Page Test">
+<test name="Product Page Test">
 		<parameter name="browser" value="chrome"></parameter>
 		<classes>
 		<class name="com.opencart.qa.tests.ProductInfoPageTest" /> 
@@ -33,7 +33,7 @@
 	</test>
 
 	<test name="Registration Page Test">
-		<parameter name="browser" value="chrome"></parameter>
+		<parameter name="browser" value="firefox"></parameter>
 		<classes>
 			<class name="com.opencart.qa.tests.RegisterPageTest" /> 
 		</classes>

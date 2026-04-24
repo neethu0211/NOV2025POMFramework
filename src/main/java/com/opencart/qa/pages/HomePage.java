@@ -23,10 +23,15 @@ public class HomePage {
 			}
 
 	//3.private by locator page objects
-	private final By  logoutLink=By.linkText("Logout");
+	/*private final By  logoutLink=By.linkText("Logout");
 	private final By header=By.xpath("//div[@id='content']/h2");
 	private final By searchTextField=By.name("search");
-	private final By searchIcon=By.xpath("//div[@id='search']//button");
+	private final By searchIcon=By.xpath("//div[@id='search']//button");*/
+	
+	private final By logoutLink = By.linkText("Logout");
+	private final By header = By.cssSelector("div#content h2");
+	private final By searchTextField = By.name("search");
+	private final By searchIcon = By.cssSelector("div#search button");
 	
 	
 	//4.public page action or methods
